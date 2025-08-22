@@ -1,0 +1,1 @@
+docker build -t snort3:latest .
