@@ -14,5 +14,6 @@
 - `./snort -c ../etc/snort/snort.lua -R /snorty/etc/snort/test.rules -i eth0 -A alert_fast`
 
 ## helpful:
+- uncomment `alert_fast = { }` and `alert_full = { }` in snort.lua
 - `pkill -9 snort3`
 - `vim /snorty/etc/snort/snort.lua`
