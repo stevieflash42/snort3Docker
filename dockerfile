@@ -42,6 +42,6 @@ RUN export output_path=/snorty && \
 WORKDIR /snort3/build
 RUN make -j $(nproc) install
 
-RUN mkdir /snortlogs && ldconfig && ip link set eth0 promisc on
+RUN mkdir /snortlogs && ldconfig
 
 WORKDIR /snorty/bin
